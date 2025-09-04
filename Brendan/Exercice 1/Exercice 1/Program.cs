@@ -135,38 +135,41 @@ namespace Exercice_1
             products.Add(new Product() { Location = "15", Provider = "Crizzi", Name = "Myrtilles", Quantity = 12, Unit = "kg", Price = 3.00m });
             products.Add(new Product() { Location = "15", Provider = "Crizzi", Name = "Groseilles", Quantity = 12, Unit = "kg", Price = 3.50m });
 
-            int peaches = 0;
-            int maxQuantity = 0;
-            string watermelonProvider = "";
-            string watermelonLocation = "";
+            //int peaches = 0;
+            //int maxQuantity = 0;
+            //string watermelonProvider = "";
+            //string watermelonLocation = "";
 
-            foreach (Product product in products)
-            {
-                /*
-                if(Regex.IsMatch(product.Name.ToLower(),"^pêche"))
-                {
-                    peaches = peaches + 1;
-                }*/
+            //foreach (Product product in products)
+            //{
+            //    /*
+            //    if(Regex.IsMatch(product.Name.ToLower(),"^pêche"))
+            //    {
+            //        peaches = peaches + 1;
+            //    }*/
 
-                if (product.Name.ToLower() == "pêches")
-                {
-                    peaches = peaches + 1;
-                }
+            //    if (product.Name.ToLower() == "pêches")
+            //    {
+            //        peaches = peaches + 1;
+            //    }
 
-                if(product.Name.ToLower() == "pastèques")
-                {
-                    if (product.Quantity > maxQuantity)
-                    {
-                        maxQuantity = product.Quantity;
-                        watermelonLocation = product.Location;
-                        watermelonProvider = product.Provider;
-                    }
-                }
-            }
+            //    if(product.Name.ToLower() == "pastèques")
+            //    {
+            //        if (product.Quantity > maxQuantity)
+            //        {
+            //            maxQuantity = product.Quantity;
+            //            watermelonLocation = product.Location;
+            //            watermelonProvider = product.Provider;
+            //        }
+            //    }
+            //}
 
 
-            Console.WriteLine($"Nombre de pêches : {peaches}");
-            Console.WriteLine($"Vendeur: {watermelonProvider}, Nombre de pastèques: {maxQuantity}, Emplacement: {watermelonLocation}");
+            //Console.WriteLine($"Nombre de pêches : {peaches}");
+            //Console.WriteLine($"Vendeur: {watermelonProvider}, Nombre de pastèques: {maxQuantity}, Emplacement: {watermelonLocation}");
+
+
+
 
         }
     }
