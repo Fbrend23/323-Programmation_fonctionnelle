@@ -22,6 +22,19 @@ var filtered = words.Where(filters[choice]);
 
 Console.WriteLine($"Résultat: {String.Join(',', filtered)}");
 
+
+
+/* Liste ordrée */
+
+
+
+Console.WriteLine("Choix de l'ordre de tri");
+Console.WriteLine("1. A-Z");
+Console.WriteLine("2. Z-A");
+Console.Write("Choix: ");
+
 choice = Convert.ToInt32(Console.ReadLine()) - 1;
+
+
 
 
