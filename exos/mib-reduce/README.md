@@ -17,30 +17,6 @@ List<Product> products = new List<Product>
     //...
 }
 ```
-## Map
-
-### 1. Chiffre d’affaire international anonyme
-En [transformant](../../supports/source/03-MapReduce.md#je-ne-veux-pas-transformer-je-veux-juste-sélectionner) la liste initiale en une liste contenant:
-
-- Les 3 premières lettres du producteur suivies de "..." suivis de la dernière lettre du nom (Dumont --> Dum...t) [pseudo-anonymisation]
-- Le nom de l’aliment en anglais [dictionnaire disponible ici](./i18n.cs)
-- Le chiffre d’affaire maximum possible de la journée avec cet aliment (CA = Quantity * PricePerUnit)
-
-#### Livrable 1
-Afficher le résultat:
-
-| Seller  | Product | CA  |
-| :------ | :------ | :-- |
-| Dum...t | Nuts    | 110 |
-|         |         |     |
-
-#### Livrable 2
-Exporter le résultat dans un fichier CSV:
-
-```csv
-Seller,Product,CA
-Dum...t,Nuts,110
-```
 
 ## Reduce
 
