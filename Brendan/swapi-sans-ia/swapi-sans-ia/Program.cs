@@ -1,4 +1,4 @@
-﻿private HttpClient client = new HttpClient();
+﻿HttpClient client = new HttpClient();
 
 async Task<string> HttpGetAsync(HttpClient client, string query)
 {
