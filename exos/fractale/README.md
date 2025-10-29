@@ -309,15 +309,13 @@ déviation pour créer des arbres plus denses ou plus fins...
 
 ## Généralisation
 
-Vous êtes prêts à dessiner quasiment n'importe quelle fractale à base de lignes.
-
-Allons-y étape par étape.
+À partir de là, on peut élaborer une solution pour n'importe quelle fractale à base de lignes...
 
 ### Préparation: Dessiner une polyline
 
 Créez un nouveau projet selon les mêmes bases que ci-dessus.
 
-Utilisez le code qui sui pour obtenir le résultat ci-dessous:
+Utilisez le code qui suit pour obtenir le résultat ci-dessous:
 
 ```csharp
     public partial class Fractales : Form
@@ -377,7 +375,7 @@ C'est cette ligne brisée - notre pattern - que vous allons fractaliser en rempl
 
 ### Etape 2: Dessiner n'importe où
 
-On veut maintenant pouvoir placer notre ligne n'importe où dans le panel.  
+On veut maintenant pouvoir placer notre ligne n'importe où dans le panel.
 On va donc la déplacer (translate)
 
 Ecrivez une méthode privée 
